@@ -8,7 +8,7 @@ body{
     border: dashed 3px black;
 }
 .box{
-    margin-left: 450px;
+    margin-left: 0px;
     box-sizing: content-box;
     width: 305px;
     height: 265px;
@@ -34,9 +34,9 @@ body{
     color: white;
     border: 0px;
 }
-@media (max-width:1000px), (max-height:1000px) {
+@media (max-width:500px) {
     body{
-        background-color: grey;
+        background-color: rgb(245, 100, 100);
      }
      
      #header{
